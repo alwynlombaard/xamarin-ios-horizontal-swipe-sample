@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="18">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Root View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="17">
+            <objects>
+                <navigationController id="18" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="20">
+                        <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="71" destination="27" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="21" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-471" y="79"/>
+        </scene>
+        <scene sceneID="26">
+            <objects>
+                <viewController id="27" sceneMemberID="viewController" customClass="ViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="24"/>
+                        <viewControllerLayoutGuide type="bottom" id="25"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="28">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem id="70" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="29" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="209" y="84"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="images/onboarding/connect.png" width="320" height="568"/>
+        <image name="images/onboarding/discover.png" width="320" height="568"/>
+        <image name="images/onboarding/fundraise.png" width="320" height="568"/>
+        <image name="images/onboarding/get-started.png" width="320" height="568"/>
+        <image name="images/onboarding/make-good-things-happen.png" width="320" height="568"/>
+        <image name="images/onboarding/purple-pip-circle.png" width="8" height="8"/>
+        <image name="images/onboarding/purple-pip-full.png" width="8" height="8"/>
+        <image name="images/onboarding/white-pip-circle.png" width="8" height="8"/>
+        <image name="images/onboarding/white-pip-full.png" width="8" height="8"/>
+    </resources>
+</document>
