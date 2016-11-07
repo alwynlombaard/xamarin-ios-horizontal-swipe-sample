@@ -124,7 +124,7 @@
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="HorizontalSwipe\MultiStepProcessHorizontal.cs" />
-    <Compile Include="HorizontalSwipe\OnBoardingPageControl.cs" />
+    <Compile Include="HorizontalSwipe\HorizontalSwipePageControl.cs" />
     <Compile Include="HorizontalSwipe\Steps\ConnectStep.cs" />
     <Compile Include="HorizontalSwipe\Steps\DiscoverStep.cs" />
     <Compile Include="HorizontalSwipe\Steps\FundraiseStep.cs" />
